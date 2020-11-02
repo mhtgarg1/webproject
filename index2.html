@@ -1,0 +1,203 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>Catalog-Z</title>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="https://kit.fontawesome.com/bdc73183e5.js" crossorigin="anonymous"></script>
+       <link rel="stylesheet" href="style2.css">
+        <script src="index.js">
+            
+        </script>
+    </head>
+    <body>
+        <div id="header">
+            <div id="logo">
+                    <p><em class="fas fa-film" style="margin-right: 10px;"></em><b>Catalog-Z</b></p>
+            </div>
+        </div>
+        <div id="nav">
+            <ul>
+                <a href="#"><li>Photos</li></a>
+                <a href="#"><li style="border-bottom: 2px solid red; padding-bottom: 4px;">Videos</li></a>
+                <a href="#"><li>About</li></a>
+                <a href="form.html"><li>Contact</li></a>
+            </ul>
+        </div>
+        <div id="section-search-bar">
+            <div id="search-bar">
+                <input type="text" name="search" placeholder="Search" id="search-input">
+                <button onclick="urlparam()" id="btn"><em class="fas fa-search" style="color: #fff"></em></button>
+            </div>
+        </div>
+        <div id="section-images">
+            <div id="image-heading">
+                <p style="float: left;font-size: 25px;padding-left: 70px;"><b>Latest Videos</b></p>
+                <p style="float: right;padding-right: 70px;"><strong>Page <button style="background-color: rgb(246, 241, 241);width: 25px;color: rgb(93, 156, 185);"> 1</button> 180</strong></p>
+            </div>
+            <div id="images">
+            <div class="img-row">
+                <div class="img_text">
+                    <img src="img-new-1.jpeg" alt="" class="img_child">
+                    <p class="p-1">some text</p>
+                    <p id="p-2">some text</p>
+                    <p id="p-3">some text</p>
+                </div>
+                <div class="img_text">
+                    <img src="img-new-2.jpeg" alt="" class="img_child">
+                    <p id="p-1">some text</p>
+                    <p id="p-2">some text</p>
+                    <p id="p-3">some text</p>
+                </div>
+                <div class="img_text">
+                    <img src="img-new-3.webp" alt="" class="img_child">
+                    <p id="p-1">some text</p>
+                    <p id="p-2">some text</p>
+                    <p id="p-3">some text</p>
+                </div>
+                <div class="img_text">
+                    <img src="img-new-4.jpg" alt="" class="img_child">
+                    <p id="p-1">some text</p>
+                    <p id="p-2">some text</p>
+                    <p id="p-3">some text</p>
+                </div>
+               
+            </div>
+            <div class="img-row">
+                <div class="img_text">
+                    <img src="img-new-5.jpg" alt="" class="img_child">
+                    <p id="p-1">some text</p>
+                    <p id="p-2">some text</p>
+                    <p id="p-3">some text</p>
+                </div>
+                <div class="img_text">
+                    <img src="img-new-6.jpg" alt="" class="img_child">
+                    <p id="p-1">some text</p>
+                    <p id="p-2">some text</p>
+                    <p id="p-3">some text</p>
+                </div>
+                <div class="img_text">
+                    <img src="img-new-7.jpeg" alt="" class="img_child">
+                    <p id="p-1">some text</p>
+                    <p id="p-2">some text</p>
+                    <p id="p-3">some text</p>
+                </div>
+                <div class="img_text">
+                    <img src="img-new-8.jpeg" alt="" class="img_child">
+                    <p id="p-1">some text</p>
+                    <p id="p-2">some text</p>
+                    <p id="p-3">some text</p>
+                </div>
+            </div>
+            <div class="img-row">
+                <div class="img_text">
+                    <img src="img-new-9.jpeg" alt="" class="img_child">
+                    <p id="p-1">some text</p>
+                    <p id="p-2">some text</p>
+                    <p id="p-3">some text</p>
+                </div>
+                <div class="img_text">
+                    <img src="img-new-10.jpg" alt="" class="img_child">
+                    <p id="p-1">some text</p>
+                    <p id="p-2">some text</p>
+                    <p id="p-3">some text</p>
+                </div>
+                <div class="img_text">
+                    <img src="img-new-11.jpg" alt="" class="img_child">
+                    <p id="p-1">some text</p>
+                    <p id="p-2">some text</p>
+                    <p id="p-3">some text</p>
+                </div>
+                <div class="img_text">
+                    <img src="img-new-12.jpg" alt="" class="img_child">
+                    <p id="p-1">some text</p>
+                    <p id="p-2">some text</p>
+                    <p id="p-3">some text</p>
+                </div>
+            </div>
+            <div class="img-row">
+                <div class="img_text">
+                    <img src="img-new-1.jpeg" alt="" class="img_child">
+                    <p id="p-1">some text</p>
+                    <p id="p-2">some text</p>
+                    <p id="p-3">some text</p>
+                </div>
+                <div class="img_text">
+                    <img src="img-new-2.jpeg" alt="" class="img_child">
+                    <p id="p-1">some text</p>
+                    <p id="p-2">some text</p>
+                    <p id="p-3">some text</p>
+                </div>
+                <div class="img_text">
+                    <img src="img-new-3.webp" alt="" class="img_child">
+                    <p id="p-1">some text</p>
+                    <p id="p-2">some text</p>
+                    <p id="p-3">some text</p>
+                </div>
+                <div class="img_text">
+                    <img src="img-new-4.jpg" alt="" class="img_child">
+                    <p id="p-1">some text</p>
+                    <p id="p-2">some text</p>
+                    <p id="p-3">some text</p>
+                </div>
+            </div>
+            <div class="img-row">
+                <div class="img_text">
+                    <img src="img-new-5.jpg" alt="" class="img_child">
+                    <p id="p-1">some text</p>
+                    <p id="p-2">some text</p>
+                    <p id="p-3">some text</p>
+                </div>
+                <div class="img_text">
+                    <img src="img-new-6.jpg" alt="" class="img_child">
+                    <p id="p-1">some text</p>
+                    <p id="p-2">some text</p>
+                    <p id="p-3">some text</p>
+                </div>
+                <div class="img_text">
+                    <img src="img-new-7.jpeg" alt="" class="img_child">
+                    <p id="p-1">some text</p>
+                    <p id="p-2">some text</p>
+                    <p id="p-3">some text</p>
+                </div>
+                <div class="img_text">
+                    <img src="img-new-8.jpeg" alt="" class="img_child">
+                    <p id="p-1">some text</p>
+                    <p id="p-2">some text</p>
+                    <p id="p-3">some text</p>
+                </div>
+            </div>
+            <div id="image-footer">
+                <button style="float: left;width: 120px;">Previous</button>
+                <button id="b1" onclick="valueMultiply1()" class="b-1" style=" margin-left:440px ;">1</button>
+                <button id="b2" onclick="valueMultiply2()" class="b-1" style="margin-left: 10px;background-color: rgb(231, 230, 230);color: grey;">2</button>
+                <button id="b3" onclick="valueMultiply3()" class="b-1" style="margin-left: 10px;background-color: rgb(231, 230, 230);color: grey;">3</button>
+                <button id="b4" onclick="valueMultiply4()" class="b-1" style="margin-left: 10px;background-color: rgb(231, 230, 230);color: grey;">4</button>
+                <button  style="float: right;width: 120px;">NextPage</button>
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+        <div id="footer">
+            <div id="about">
+                <h1 >About Catalog-Z</h1>
+                <p> Catalog-Z is free bootstrap 5 Alpha 2 Html</p>
+                <p> Template for phot and video websites you can.</p>
+                <p> Freely use this template layout for a front-end</p>
+                <p>Integration with any kind of CMS Website</p>
+            </div>
+            <div id="links">
+                <h2>Our Links</h2>
+                <p>Advertise</p>
+                <p>Support</p>
+                <p>Our Company</p>
+                <p>Product</p>
+            </div>
+            <div id="icons">
+                <a href=""><img src="logo-facebook.svg" alt="" ></a>
+                <a href=""><img src="logo-instagram.svg" alt=""></a>
+                <a href=""><img src="logo-linkedin.svg" alt=""></a>
+                <a href=""><img src="logo-twitter.svg" alt=""></a>
+            </div>
+        </div>
+    </body>
+</html>

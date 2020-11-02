@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.row{
+    max-width: 1140px; 
+    margin:0 auto; 
+}
+body{
+    background-color:grey;
+}
+#header{
+    width: 1200px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#logo {
+   
+    
+}
+#logo p{
+    font-size: 20px;
+    color: #fff;
+    font-weight: bolder;
+    padding-top: 30px;
+    
+}
+#nav{
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+nav ul li{
+    color:#fff;
+    display: inline;
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+#section-search-bar{
+    background-image: url('background.jpg');
+    background-size: cover;
+    height: 30vh;
+    margin-top: 40px;
+    position: relative;
+    width:1200px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+#search-bar input
+{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    right: 50%;
+    bottom: 50%;
+    height: 4.5vh;
+
+}
+#search-bar button
+{
+    position: absolute;
+    top: 50%;
+    left: 53%;
+    right: 50%;
+    bottom: 50%;
+    height: 5vh;
+    width: 80px;
+    background-color: aqua;
+    font-size: large;
+}
+
+#section-images{
+    width:1200px;
+    margin: 0px 200px;
+    background-color:rgb(214, 222, 224);
+   
+}
+#image-heading{
+    padding: 90px 50px;
+
+}
+
+#image-heading p{
+    display:inline;
+    color:darkred;
+    font-size: 27px;
+}
+.img{
+    padding-bottom: 30px;
+    padding-left: 20px;
+}
+.img img{
+    padding-left: 40px;
+    width:250px;
+    height: 150px;
+}
+
+#image-footer{
+    padding:50px 50px;
+    margin-left: 200px;
+}
+#image-footer button{
+    width: 90px;
+    height: 40px;
+    margin-left: 60px;
+    font-size: medium;
+    font-style: italic;
+    font-weight: bolder;
+}
+#footer{
+    position: relative;
+    height: 30vh;
+}
+#about{
+    position: absolute;
+    width: 300px;
+    left: 30%;
+    top: 13%;
+    right: 70%;
+}
+#about h1{
+    color:rgb(133, 187, 133);
+    font-size: 30px;
+    font-weight: bolder;
+}
+#about p{
+    color: wheat;
+    padding-top: 10px;
+    font-size: 15px;
+}
+#links{
+    position: absolute;
+    width: 200px;
+    left: 55%;
+    top: 13%;
+    right: 45%;
+}
+#links h2{
+    color:rgb(133, 187, 133);
+    font-size: 30px;
+    font-weight: bolder;
+}
+#links p{
+    color: wheat;
+    padding-top: 10px;
+    font-size: 15px;
+}
+#icons
+{
+    position: absolute;
+    width: 200px;
+    left: 70%;
+    top: 13%;
+    right: 30%;
+}
+#icons a{
+    margin-left: 10px;
+}
+#icons a img{
+    width: 25px;
+    display: inline;
+
+}
+
+
